@@ -5,7 +5,7 @@
 #mkdir -p /app/testdatenvorbereitung
 #exit
 
-scp * oracle@10.1.116.20:/app/testdatenvorbereitung/
+scp -r * oracle@10.1.116.20:/app/testdatenvorbereitung/
 
 
 #ssh oracle@10.1.116.20
