@@ -1,0 +1,37 @@
+
+testdatenskripte.dok:
+	diese Datei
+
+
+impdpt1.sh:
+	Skript das unter Verwendung von impdp der 11 xe Datenbank in der VM
+	die Tabelle des_s_einreichungsweg in eine 11 xe importiert. 
+
+impdpt2.sh:
+	Skript das unter Verwendung von impdp der 11 xe Datenbank in der VM
+	die Tabelle des_s_einreichungsweg in eine 12C Datenbank importiert.
+
+Diese beiden Dateien dienen Diagnose-Zwecken.
+
+config.txt:
+	Diese Datei beschreibt die Abbildung des "Anwendungs-Identifiers" (Entwicklung,TESTZIT,TESTKZV*)
+	auf die Parameter, die den Importvorgang bestimmen.
+
+*.lst:
+	Tabellenlisten für die unterschiedlichen Anwendungszwecke (löschen, importieren, alle Daten, Stammdaten, ...)
+
+
+sourcegrants.sql:
+	Privilegien und Rollen die dem Quellbenutzer gewährt werden müssen.
+
+targetgrants.sql:
+	Privilegien und Rollen die dem Zielbenutzer gewährt werden müssen.
+
+titf.sh, test.sh:
+	Skripte für die interne Verwendung.
+
+Alle weiteren Dateien Shell-Skripte und SQL-Skripte sind zur Umsetzung der Skriptfunktionalität notwendig.
+
+
+
+
