@@ -2,12 +2,12 @@ des_s_einreichungsweg
 abr_s_leistungsbereich
 kzv_bereich
 kzv_organisationseinheit
+kzv_abrechnungsnummer
 abr_s_punktwertart
 kts_kostentraeger_block
 kts_kostentraeger_gruppe
 kts_kostentraeger_typ
 abr_fachprotokoll
-kzv_abrechnungsnummer
 kts_kostentraeger_art
 kts_kostentraeger
 kts_kostentraeger_details
