@@ -34,6 +34,7 @@ while IFS=, read identifier connection targetschema sourceschema sourcepassword 
        echo "exit $0"
         exit $RC
      fi
+     ./datenruecksetzen.sh $1
       echo "./tabellenlisteimportieren.sh $connection stammdaten.lst $targetschema $sourceschema $sourcepassword $sourcedatabase"
      ./tabellenlisteimportieren.sh $connection stammdaten.lst $targetschema $sourceschema $sourcepassword $sourcedatabase
      let RC=$?
